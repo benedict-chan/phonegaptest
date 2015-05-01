@@ -14,11 +14,12 @@
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="BackupWebStorage" value="none"/>
 
+  <icon src="res/icon/bc.png" />
   <platform name="android">
-      <icon src="www/img/bc.png" density="ldpi" />
-      <icon src="www/img/bc.png" density="mdpi" />
-      <icon src="www/img/bc.png" density="hdpi" />
-      <icon src="www/img/bc.png" density="xhdpi" />
+      <icon src="res/icon/bc.png" density="ldpi" />
+      <icon src="res/icon/bc.png" density="mdpi" />
+      <icon src="res/icon/bc.png" density="hdpi" />
+      <icon src="res/icon/bc.png" density="xhdpi" />
    </platform>
   
   <feature name="StatusBar">
