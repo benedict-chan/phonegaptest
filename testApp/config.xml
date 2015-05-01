@@ -15,12 +15,12 @@
   <preference name="BackupWebStorage" value="none"/>
 
   <icon src="res/icon/bc.png" />
-  <platform name="android">
-      <icon src="res/icon/bc.png" density="ldpi" />
-      <icon src="res/icon/bc.png" density="mdpi" />
-      <icon src="res/icon/bc.png" density="hdpi" />
-      <icon src="res/icon/bc.png" density="xhdpi" />
-   </platform>
+  
+      <icon src="res/icon/bc.png" gap:platform="android" gap:qualifier="ldpi" />
+      <icon src="res/icon/bc.png" gap:platform="android" gap:qualifier="mdpi" />
+      <icon src="res/icon/bc.png" gap:platform="android" gap:qualifier="hdpi" />
+      <icon src="res/icon/bc.png" gap:platform="android" gap:qualifier="xhdpi" />
+  
   
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
